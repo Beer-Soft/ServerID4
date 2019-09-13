@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "/Volumes/MaCSD/ProyectosNetCore/IdentityServer4/BeerSoft.Server.IS4/BeerSoft.Server.IS4.csproj": {}
+  },
+  "projects": {
+    "/Volumes/MaCSD/ProyectosNetCore/IdentityServer4/BeerSoft.Server.IS4/BeerSoft.Server.IS4.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/MaCSD/ProyectosNetCore/IdentityServer4/BeerSoft.Server.IS4/BeerSoft.Server.IS4.csproj",
+        "projectName": "BeerSoft.Server.IS4",
+        "projectPath": "/Volumes/MaCSD/ProyectosNetCore/IdentityServer4/BeerSoft.Server.IS4/BeerSoft.Server.IS4.csproj",
+        "packagesPath": "/Users/juanperez/.nuget/packages/",
+        "outputPath": "/Volumes/MaCSD/ProyectosNetCore/IdentityServer4/BeerSoft.Server.IS4/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/juanperez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "IdentityServer4": {
+              "target": "Package",
+              "version": "[2.5.2, )"
+            },
+            "IdentityServer4.AspNetIdentity": {
+              "target": "Package",
+              "version": "[2.5.2, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
